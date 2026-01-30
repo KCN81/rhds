@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Master file for the download of the data 
 
 source config.env
