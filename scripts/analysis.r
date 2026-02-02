@@ -8,8 +8,8 @@ args <- commandArgs(trailingOnly = T)
 datadir <- args[1]
 resultsdir <- args[2]
 
-combined.filename <- file.path(resultsdir, "combined-clin-pred-proteins.txt")
-data <- read.table(combined.filename,
+combined.file <- file.path(resultsdir, "combined-clin-pred-proteins.txt")
+data <- read.table(combined.file,
   header = T, sep = "\t", stringsAsFactors = F
 )
 
