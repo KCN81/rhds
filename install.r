@@ -19,3 +19,6 @@ remotes::install_github("perishky/meffonym@9faface")
 
 # Register R kernel with Jupyter
 IRkernel::installspec(name = "rhds_r", displayname = "R (rhds)")
+
+# Install functions 
+remotes::install_github("<your_username>/rhds.rpackage@v0.1.0")
